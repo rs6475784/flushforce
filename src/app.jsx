@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Droplets, MapPin, Calendar, Smartphone, DollarSign, BarChart3, Zap, Users, Menu, X, ArrowRight, CheckCircle, Shield } from 'lucide-react';
 
-export default function FlushForceLanding() {
+export default function PumpForceLanding() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -18,7 +18,7 @@ export default function FlushForceLanding() {
       icon: <Users className="w-8 h-8" />,
       title: "Track Every Load",
       subtitle: "Customer Management That Doesn't Stink",
-      description: "Remember when you forgot Mrs. Henderson's tank was overdue? Yeah, us neither—because FlushForce doesn't forget. Auto-schedules, service history, and reminders so you never miss a beat.",
+      description: "Remember when you forgot Mrs. Henderson's tank was overdue? Yeah, us neither—because PumpForce doesn't forget. Auto-schedules, service history, and reminders so you never miss a beat.",
       highlights: ["Never forget a pump date", "Auto-remind overdue customers", "Complete service history tracking"]
     },
     {
@@ -124,7 +124,7 @@ export default function FlushForceLanding() {
       metric: "47 → 0 daily interruptions"
     },
     {
-      quote: "The automated invoicing alone pays for FlushForce. Everything else is just gravy. Delicious, profitable gravy.",
+      quote: "The automated invoicing alone pays for PumpForce. Everything else is just gravy. Delicious, profitable gravy.",
       name: "Mike T.",
       company: "No. 1 Septic Solutions",
       metric: "95% faster payment collection"
@@ -143,7 +143,7 @@ export default function FlushForceLanding() {
                 <Zap className="w-4 h-4 text-yellow-400 absolute -top-1 -right-1" />
               </div>
               <span className="text-2xl font-bold tracking-tight">
-                FLUSH<span className="text-blue-400">FORCE</span>
+                PUMP<span className="text-blue-400">FORCE</span>
               </span>
             </div>
             
@@ -418,7 +418,7 @@ export default function FlushForceLanding() {
                   <Zap className="w-3 h-3 text-yellow-400 absolute -top-1 -right-1" />
                 </div>
                 <span className="text-xl font-bold">
-                  FLUSH<span className="text-blue-400">FORCE</span>
+                  PUMP<span className="text-blue-400">FORCE</span>
                 </span>
               </div>
               <p className="text-slate-400 text-sm">
@@ -454,7 +454,7 @@ export default function FlushForceLanding() {
           </div>
 
           <div className="border-t border-slate-800 pt-8 text-center text-slate-500 text-sm">
-            © 2025 FlushForce. All rights reserved. Built by people who understand that septic pumping is a noble profession. 💧⚡
+            © 2025 PumpForce. All rights reserved. Built by people who understand that septic pumping is a noble profession. 💧⚡
           </div>
         </div>
       </footer>
